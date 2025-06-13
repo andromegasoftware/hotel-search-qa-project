@@ -100,3 +100,10 @@ lib
 <img src="screenshots/hotels_dark.png" alt="Search Hotels Dark" width="150"/>
 <img src="screenshots/favorites_dark.png" alt="Favorite Hotels Dark" width="150"/>
 </p>
+
+
+## 🧪 QA & Testing Setup
+
+To view the complete environment setup for manual and automated testing (including Patrol E2E tests), check:
+
+👉 [QA_ENVIRONMENT_SETUP.md](./QA_ENVIRONMENT_SETUP.md)
