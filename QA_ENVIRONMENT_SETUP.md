@@ -64,18 +64,15 @@ A custom script is available to execute integration tests on all connected Andro
 
 ⸻
 
-5. End-to-End Tests Using Patrol
+## 5. End-to-End Tests Using Patrol
 
 Patrol provides native-automation support and advanced E2E testing for Flutter apps.
 
 ✅ Setup
 	•	Added patrol: ^3.15.2 to pubspec.yaml
-	•	Ran:
-
-flutter pub run patrol:install
-
+	•	Run:
+        flutter pub run patrol:install
 
 
 ▶️ Run a Patrol Test
-
-flutter test integration_test/patrol_test.dart
+        flutter test integration_test/patrol_test.dart
