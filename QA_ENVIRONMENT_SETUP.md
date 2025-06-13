@@ -40,9 +40,11 @@ Set up a local and cross-platform testing environment for manual and automated t
 
 ## 3. Running Tests
 
-### ✅ Run Unit and Widget Tests
 
-To run all unit and widget tests:
+To run widget tests:
 
 ```bash
-flutter test
+flutter test integration_test/app_test.dart
+
+```
+# Run Tests on Specific Device
