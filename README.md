@@ -106,4 +106,5 @@ lib
 
 To view the complete environment setup for manual and automated testing (including Patrol E2E tests), check:
 
-👉 [QA_ENVIRONMENT_SETUP.md](./QA_ENVIRONMENT_SETUP.md)
+👉 [QA_ENVIRONMENT_SETUP.md](./QA_ENVIRONMENT_SETUP.md)  
+👉 [QA Test Strategy](./qa/test_strategy.md)  

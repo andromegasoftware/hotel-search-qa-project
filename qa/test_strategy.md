@@ -9,6 +9,7 @@ Define a manual and optional automated testing plan to ensure key functionalitie
 - View search results and add a hotel to Favorites
 - Navigate to Favorites tab and view saved hotels
 - Navigate to Account tab to view account screen
+- Go back to the Overview screen and leave the app
 
 ## 2. UI Validations
 - Text alignment and visibility
@@ -27,11 +28,14 @@ Define a manual and optional automated testing plan to ensure key functionalitie
 | TC06 | Verify hotel appears in Favorites tab            | High     |
 | TC07 | Navigate to Account tab                          | Medium   |
 | TC09 | Handle no internet connection gracefully         | High     |
+| TC10 | Verify scroll behavior in hotel listings         | Low      |
+
 
 ## 5. Integration/Widget Test Plan
 - Widget tests for:
   - HotelCard
   - SearchForm
+  - Tabs and screen changes
 - Integration:
   - Adding to the Favorites
   - Deleting from the Favorites
