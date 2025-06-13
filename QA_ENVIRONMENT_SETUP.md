@@ -48,3 +48,7 @@ flutter test integration_test/app_test.dart
 
 ```
 # Run Tests on Specific Device
+	1.	List devices:
+        flutter devices
+    2.	Run test on a target device:
+        flutter -d <device_id> test integration_test/app_test.dart
