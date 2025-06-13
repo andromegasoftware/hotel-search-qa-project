@@ -108,3 +108,17 @@ To view the complete environment setup for manual and automated testing (includi
 
 👉 [QA_ENVIRONMENT_SETUP.md](./QA_ENVIRONMENT_SETUP.md)  
 👉 [QA Test Strategy](./qa/test_strategy.md)  
+👉 [Sample Test Execution Results](./qa/test_results/)
+
+
+### Integration Test File
+
+A sample test is available in `integration_test/app_test.dart` and verifies this flow:
+- App launch
+- Verify initial overview tab
+- Add hotel to favorites
+- Navigate to account and back to overview
+
+To run it and save the output:
+```bash
+flutter test integration_test/app_test.dart > qa/test_results/integration_test_output.txt
