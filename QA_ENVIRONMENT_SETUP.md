@@ -51,4 +51,14 @@ flutter test integration_test/app_test.dart
 	1.	List devices:
         flutter devices
     2.	Run test on a target device:
-        flutter -d <device_id> test integration_test/app_test.dart
+        flutter -d <device_id> test 
+        
+
+---
+
+## 4. Run Tests Across All Devices
+
+A custom script is available to execute integration tests on **all connected Android/iOS devices**.
+
+### 📄 Script Location:
+./integration_test/multi_device_test.sh
