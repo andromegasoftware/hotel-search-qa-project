@@ -64,22 +64,17 @@ A custom script is available to execute integration tests on all connected Andro
 
 ⸻
 
-## 5. End-to-End Tests Using Patrol
+## 5. End-to-End Tests Using Maestro
 
-Patrol provides native-automation support and advanced E2E testing for Flutter apps.
+Maestro provides lightweight and reliable E2E testing for mobile apps, including Flutter.
 
 ✅ Setup
-	•	Added patrol: ^3.15.2 to pubspec.yaml
-	•	Run:
-        flutter pub run patrol:install
+	•	Installed the Maestro CLI: curl -Ls "https://get.maestro.mobile.dev" | bash
+	•	Added to your shell profile: export PATH="$HOME/.maestro/bin:$PATH"
 
 ✅ Quick Setup Checklist
-	1.	Install Patrol CLI (if not already):
-        dart pub global activate patrol_cli
-        2.	Ensure this is in your .zshrc / .bashrc:
-        export PATH="$PATH":"$HOME/.pub-cache/bin"
-        3.	Run this to verify:
-        patrol --version
+	1.Verified Maestro installation: maestro --version
+        2.Created a .maestro directory in project root under e2e_tests folder: e2e_tests/maestro
+        3.Created flow.yaml file inside maestro folder
+        4. Run this e2e tests inside flow.yaml file:  maestro test e2e_tests/maestro/flow.yaml
 
-▶️ Run a Patrol Test
-        flutter test integration_test/patrol_test.dart

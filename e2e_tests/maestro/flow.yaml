@@ -1,0 +1,8 @@
+appId: com.example.hotel_booking
+---
+- launchApp
+- assertVisible: "Hotel Booking"
+- tapOn: "Hotels"
+- inputText: "Istanbul"
+- tapOn: "Search"
+- assertVisible: "Results"

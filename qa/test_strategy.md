@@ -63,7 +63,7 @@ Define a manual and optional automated testing plan to ensure key functionalitie
                                                           | - Return to Overview tab                           |
                                                           | - Exit app gracefully                              |
 
-Note: This E2E flow can be automated using Patrol framework as configured in the QA environment setup.
+Note: This E2E flow is automated using Maestro framework as configured in the QA environment setup.
 
 
 

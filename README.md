@@ -104,11 +104,12 @@ lib
 
 ## 🧪 QA & Testing Setup
 
-To view the complete environment setup for manual and automated testing (including Patrol E2E tests), check:
+To view the complete environment setup for manual and automated testing (including Maestro E2E tests), check:
 
 👉 [QA_ENVIRONMENT_SETUP.md](./QA_ENVIRONMENT_SETUP.md)  
 👉 [QA Test Strategy](./qa/test_strategy.md)  
 👉 [Sample Test Execution Results](./qa/test_results/)
+👉 [Sample e2e Test Execution Results](./qa/test_results/)
 
 
 ### Integration Test File
@@ -125,9 +126,9 @@ flutter test integration_test/app_test.dart > qa/test_results/integration_test_o
 
 ```
 
-### Patrol E2E Test File
+### Maestro E2E Test File
 
-A basic E2E test is implemented in `integration_test/patrol_test.dart` using the Patrol testing framework.
+A basic E2E test is implemented in `e2e_tests/maestro/flow.yaml` using the Maestro testing framework.
 
 ### Test Flow Covered:
 1. App initializes successfully
@@ -140,6 +141,6 @@ A basic E2E test is implemented in `integration_test/patrol_test.dart` using the
 
 To run it and save the output:
 ```bash
-flutter test integration_test/patrol_test.dart > qa/test_results/patrol_test_output.txt
+maestro test e2e_tests/maestro/flow.yaml > qa/test_results/maestro_test_output.txt
 
 ```
