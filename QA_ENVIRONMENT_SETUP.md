@@ -82,4 +82,4 @@ Patrol provides native-automation support and advanced E2E testing for Flutter a
         patrol --version
 
 ▶️ Run a Patrol Test
-        patrol test --target=integration_test/patrol_test.dart
+        flutter test integration_test/patrol_test.dart
