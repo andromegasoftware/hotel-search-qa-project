@@ -73,6 +73,13 @@ Patrol provides native-automation support and advanced E2E testing for Flutter a
 	•	Run:
         flutter pub run patrol:install
 
+✅ Quick Setup Checklist
+	1.	Install Patrol CLI (if not already):
+        dart pub global activate patrol_cli
+        2.	Ensure this is in your .zshrc / .bashrc:
+        export PATH="$PATH":"$HOME/.pub-cache/bin"
+        3.	Run this to verify:
+        patrol --version
 
 ▶️ Run a Patrol Test
-        flutter test integration_test/patrol_test.dart
+        patrol test --target=integration_test/patrol_test.dart
