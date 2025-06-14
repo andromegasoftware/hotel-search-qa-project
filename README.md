@@ -122,3 +122,24 @@ A sample test is available in `integration_test/app_test.dart` and verifies this
 To run it and save the output:
 ```bash
 flutter test integration_test/app_test.dart > qa/test_results/integration_test_output.txt
+
+```
+
+### Patrol E2E Test File
+
+A basic E2E test is implemented in `integration_test/patrol_test.dart` using the Patrol testing framework.
+
+### Test Flow Covered:
+1. App initializes successfully
+2. Overview tab is visible
+3. User navigates to Hotels tab
+4. Searches for a hotel using keyword "Holiday"
+5. Favorites one of the search results
+6. Navigates to Account tab
+7. Returns to Overview tab
+
+To run it and save the output:
+```bash
+flutter test integration_test/patrol_test.dart > qa/test_results/patrol_test_output.txt
+
+```
