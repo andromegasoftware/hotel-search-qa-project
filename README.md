@@ -100,3 +100,47 @@ lib
 <img src="screenshots/hotels_dark.png" alt="Search Hotels Dark" width="150"/>
 <img src="screenshots/favorites_dark.png" alt="Favorite Hotels Dark" width="150"/>
 </p>
+
+
+## 🧪 QA & Testing Setup
+
+To view the complete environment setup for manual and automated testing (including Maestro E2E tests), check:
+
+👉 [QA_ENVIRONMENT_SETUP.md](./QA_ENVIRONMENT_SETUP.md)  
+👉 [QA Test Strategy](./qa/test_strategy.md)  
+👉 [Sample Test Execution Results](./qa/test_results/)
+👉 [Sample e2e Test Execution Results](./qa/test_results/)
+
+
+### Integration Test File
+
+A sample test is available in `integration_test/app_test.dart` and verifies this flow:
+- App launch
+- Verify initial overview tab
+- Add hotel to favorites
+- Navigate to account and back to overview
+
+To run it and save the output:
+```bash
+flutter test integration_test/app_test.dart > qa/test_results/integration_test_output.txt
+
+```
+
+### Maestro E2E Test File
+
+A basic E2E test is implemented in `e2e_tests/maestro/flow.yaml` using the Maestro testing framework.
+
+### Test Flow Covered:
+1. App initializes successfully
+2. Overview tab is visible
+3. User navigates to Hotels tab
+4. Searches for a hotel using keyword "Holiday"
+5. Favorites one of the search results
+6. Navigates to Account tab
+7. Returns to Overview tab
+
+To run it and save the output:
+```bash
+maestro test e2e_tests/maestro/flow.yaml > qa/test_results/maestro_test_output.txt
+
+```

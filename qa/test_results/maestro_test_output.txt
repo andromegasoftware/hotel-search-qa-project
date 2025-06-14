@@ -1,0 +1,21 @@
+Running on RFCWA1BTV3X
+ > Flow flow
+Launch app "com.example.hotel_booking"... COMPLETED
+Assert that "Hotel Booking" is visible... COMPLETED
+Assert that "Hotel Booking" is visible... COMPLETED
+Tap on "Hotels
+Tab 2 of 4"... COMPLETED
+Assert that "Search Hotels" is visible... COMPLETED
+Tap on "Search Hotels"... COMPLETED
+Input text Holiday... COMPLETED
+Assert that "Holiday" is visible... COMPLETED
+Tap on point (90%,17%)... COMPLETED
+Tap on "Favorites
+Tab 3 of 4"... COMPLETED
+Assert that "Your Favorite Hotels" is visible... COMPLETED
+Tap on "Account
+Tab 4 of 4"... COMPLETED
+Assert that "Your Account" is visible... COMPLETED
+Tap on "Overview
+Tab 1 of 4"... COMPLETED
+Assert that "Hotel Booking" is visible... COMPLETED

@@ -1,6 +1,6 @@
 name: hotel_booking
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -36,6 +36,8 @@ dev_dependencies:
   injectable_generator: ^2.6.2
   json_serializable: ^6.9.0
   slang_build_runner: ^4.4.0
+  integration_test:
+    sdk: flutter
 
 flutter:
   uses-material-design: true
