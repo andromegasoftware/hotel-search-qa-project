@@ -1,8 +1,16 @@
 appId: com.example.hotel_booking
 ---
 - launchApp
+- extendedWaitUntil:
+    visible: "Hotel Booking"
 - assertVisible: "Hotel Booking"
-- tapOn: "Hotels"
-- inputText: "Istanbul"
+- tapOn: "navigation bar, item 1"
+- assertVisible: "Search Hotels"
+- inputText: "Holiday"
 - tapOn: "Search"
-- assertVisible: "Results"
+- assertVisible: "Holiday"
+- tapOn: "favorite_border"
+- tapOn: "Account"
+- assertVisible: "Your Account"
+- tapOn: "Overview"
+- assertVisible: "Hotel Booking"

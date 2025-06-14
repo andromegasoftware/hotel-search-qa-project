@@ -1,7 +1,7 @@
 # QA Environment Setup for Flutter hotel-search App
 
 ## Objective
-Set up a local and cross-platform testing environment for manual and automated testing of the Flutter app. Also, implement E2E tests using the Patrol library.
+Set up a local and cross-platform testing environment for manual and automated testing of the Flutter app. Also, implement E2E tests using the Maestro library.
 
 ---
 
@@ -70,11 +70,11 @@ Maestro provides lightweight and reliable E2E testing for mobile apps, including
 
 ✅ Setup
 	•	Installed the Maestro CLI: curl -Ls "https://get.maestro.mobile.dev" | bash
-	•	Added to your shell profile: export PATH="$HOME/.maestro/bin:$PATH"
+	•	Added to shell profile: export PATH="$HOME/.maestro/bin:$PATH"
 
 ✅ Quick Setup Checklist
 	1.Verified Maestro installation: maestro --version
         2.Created a .maestro directory in project root under e2e_tests folder: e2e_tests/maestro
         3.Created flow.yaml file inside maestro folder
-        4. Run this e2e tests inside flow.yaml file:  maestro test e2e_tests/maestro/flow.yaml
+        4.Can be run these e2e tests inside flow.yaml file:  maestro test e2e_tests/maestro/flow.yaml
 
